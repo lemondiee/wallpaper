@@ -14,11 +14,11 @@ with open("README.md","w") as f:
 
     f.write('<h2>JPEG</h2>')
     for l in range(1,7):
-        f.write(f'<img src="WALLPAPER/jpg/1/wallpaper ({l}).jpg" alt="wallpaper ({l})" id="jpg-1-{l}"/> <br>')
+        f.write(f'<img src="WALLPAPER/jpeg/1/wallpaper ({l}).jpeg" alt="wallpaper ({l})" id="jpeg-1-{l}"/> <br>')
 
     f.write('<h2>PNG</h2>')
     for m in range(1,59):
-        f.write(f'<img src="WALLPAPER/jpg/1/wallpaper ({m}).jpg" alt="wallpaper ({m})" id="jpg-1-{m}"/> <br>')
+        f.write(f'<img src="WALLPAPER/png/1/wallpaper ({m}).png" alt="wallpaper ({m})" id="png-1-{m}"/> <br>')
     
     f.write('<h2>Thanks for visiting <a href="https://lemondiee.github.io/wallpapers">my collection</a>. I donot own any of these. All are collected from Internet sources</h2>')
     f.write('</body>')
