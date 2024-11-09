@@ -8,17 +8,17 @@ with open("README.md","w") as f:
     f.write('<h2>JPG</h2>')
     for i in range(1,7):
         for j in range(1,101):
-            f.write(f'<img src="WALLPAPER/jpg/{i}/wallpaper ({j}).jpg" alt="wallpaper ({j})" id="jpg-{i}-{j}"/> <br>')
+            f.write(f'<img src="WALLPAPER/jpg/{i}/wallpaper ({j}).jpg" alt="wallpaper ({j})" width="95%" id="jpg-{i}-{j}"/> <br>')
     for k in range(1,50):
-        f.write(f'<img src="WALLPAPER/jpg/7/wallpaper ({k}).jpg" alt="wallpaper ({k})" id="jpg-7-{k}"/> <br>')
+        f.write(f'<img src="WALLPAPER/jpg/7/wallpaper ({k}).jpg" alt="wallpaper ({k})" width="95%" id="jpg-7-{k}"/> <br>')
 
     f.write('<h2>JPEG</h2>')
     for l in range(1,7):
-        f.write(f'<img src="WALLPAPER/jpeg/1/wallpaper ({l}).jpeg" alt="wallpaper ({l})" id="jpeg-1-{l}"/> <br>')
+        f.write(f'<img src="WALLPAPER/jpeg/1/wallpaper ({l}).jpeg" alt="wallpaper ({l})" width="95%" id="jpeg-1-{l}"/> <br>')
 
     f.write('<h2>PNG</h2>')
     for m in range(1,59):
-        f.write(f'<img src="WALLPAPER/png/1/wallpaper ({m}).png" alt="wallpaper ({m})" id="png-1-{m}"/> <br>')
+        f.write(f'<img src="WALLPAPER/png/1/wallpaper ({m}).png" alt="wallpaper ({m})" width="95%" id="png-1-{m}"/> <br>')
     
     f.write('<h2>Thanks for visiting <a href="https://lemondiee.github.io/wallpapers">my collection</a>. I donot own any of these. All are collected from Internet sources</h2>')
     f.write('</body>')
